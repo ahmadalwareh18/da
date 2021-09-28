@@ -3,7 +3,7 @@
 This documentation is dedicated to helping in DirectAdmin control panel installation on VPS servers running CentOS 7 and doing required configuration. 
 ## Installation
 
-Use the package manager [yum](https://wiki.centos.org/PackageManagement/Yum) to install the required packages.
+Use the package manager [yum](https://wiki.centos.org/PackageManagement/Yum) to install the required packages (Only for CentOS 7!).
 
 ```bash
 yum install vim wget gcc gcc-c++ flex bison make bind bind-libs bind-utils openssl openssl-devel perl quota libaio \
@@ -26,10 +26,4 @@ chmod 755 setup.sh
 Reference: https://docs.directadmin.com/getting-started/installation/installguide.html
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
